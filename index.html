@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS/JQ</title>
+    <!-- css links-->
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <!--definition-->
+     <h2 class="text-danger">Click the button to see the result.</h2>
+     <button class="btn btn-dark" onclick="dfRs()">Click here</button>
+     <h3 id="df_r">4*3=?</h3>
+     <hr>
+
+
+      <!--display-->
+     <h2 class="text-danger">Display Object.</h2>
+     <button class="btn btn-dark" onclick="disPlay()">Click here</button>
+     <h3 id="ds_p"></h3>
+     <hr>
+
+
+     <!--dlt-->
+     <h2 class="text-danger">Click the button to see the person age.</h2>
+     <button class="btn btn-dark" onclick="dltAge()">Click here</button>
+     <h3 id="dlt_a"></h3>
+     <hr>
+  
+
+     <!--objects-->
+     <h2 class="text-danger">Click the button to see the objects.</h2>
+     <button class="btn btn-dark" onclick="obJects()">Click here</button>
+     <h3 id="ob_j"></h3>
+      <hr>
+
+      
+     <!--age-->
+     <h2 class="text-danger">Input your age and click the button:</h2>
+     <input id="age" value="18" />
+     <button class="btn btn-dark" onclick="aGe()">Try it</button>
+     <h3 id="ag_e"></h3>
+     <hr>
+
+
+     <!--true/false-->
+     <h2 class="text-danger">Click the button to see the true/false.</h2>
+      <button class="btn btn-dark" onclick="trueFalse()">Click here</button>
+     <h3 id="t_f"> The value of Boolean(10 > 9):</h3>
+     <hr>
+
+
+     <!--show day-->
+     <h2 class="text-danger">Click the button to see the day.</h2>
+      <button class="btn btn-dark" onclick="showDay()">Click here</button>
+     <h3 id="da_y">Day</h3>
+     <hr>
+
+
+     <!--month sorted-->
+     <h2 class="text-danger">Click the button to see the months sorted.</h2>
+      <button class="btn btn-dark" onclick="monthSort()">Click here</button>
+     <h3 id="mn_s">January,February,March,April</h3>
+     <hr>      
+
+
+       <!--fruits reverse-->
+     <h2 class="text-danger">Click the button to see the fruits reverse.</h2>
+      <button class="btn btn-dark" onclick="fruitsReverse()">Click here</button>
+     <h3 id="ft_r">Banana,Orange,Apple,Mango.</h3>
+     <hr>
+
+
+     <!--fruits position-->
+     <h2 class="text-danger">Click the button to see the fruits position.</h2>
+      <button class="btn btn-dark" onclick="fruitsPosition()">Click here</button>
+     <h3 id="ft_p">Apple,Orange,Apple,Mango.</h3>
+     <hr>
+
+
+     <!--fruits join-->
+     <h2 class="text-danger">Click the button to see the fruits name.</h2>
+      <button class="btn btn-dark" onclick="fruitsJoin()">Click here</button>
+      <h3 id="ft_j">Fruits </h3>
+      <hr>
+
+     <!--fruits name-->
+      <h2 class="text-danger">Click the button to see the fruits name.</h2>
+      <button class="btn btn-dark" onclick="fruitsName()">Click here</button>
+      <h3 id="ft_n">Fruits Name</h3>
+      <hr>
+
+
+     <!--template-->
+     <h2 class="text-danger">Click the button to see the template.</h2>
+     <button class="btn btn-dark" onclick="temPlate()">Click here</button>
+     <h3 id="tmp">Template</h3>
+     <hr>
+
+     <!--position-->
+     <h2 class="text-danger">Click the button to see the position.</h2>
+     <button class="btn btn-dark" onclick="posiTion()">Click here</button>
+     <h3 id="psn">Position</h3>
+     <hr>
+
+      <!--textchar-->
+      <h2 class="text-danger">Click the button to see the message.</h2>
+      <button class="btn btn-dark" onclick="textChar()">Click here</button>
+      <h3 id="tcr">Message</h3>
+      <hr>
+
+      <!--Car data-->
+      <h2 class="text-danger">Click the button to see the car data.</h2>
+      <button class="btn btn-dark" onclick="carData()">Click here</button>
+      <h3 id="crd">Data</h3>
+      <hr>
+
+       <!--The %= Operator-->
+       <h2 class="text-danger">The %= Operator</h2>
+      <button class="btn btn-dark" onclick="remaInder()">click here</button>
+      <h3 id="rmnd">output</h3>
+      <hr>
+
+      <!--The /= Operator-->
+      <h2 class="text-danger">The /= Operator</h2>
+      <button class="btn btn-dark" onclick="diviSion()">click here</button>
+      <h3 id="dv">output</h3>
+      <hr>
+
+      <!--Multiplication Assignment-->
+      <h2 class="text-danger">The *= Operator</h2>
+      <button class="btn btn-dark" onclick="multiPlication()">click here</button>
+      <h3 id="mltp">output</h3>
+      <hr>
+
+      <!--Operator-->
+      <h2 class="text-danger">The Operator</h2>
+      <button class="btn btn-dark" onclick="operator()">click here</button>
+      <h3 id="t_p">output</h3>
+      <hr>
+
+      <!--car name-->
+      <h2 class="text-danger">Click the button to see the car name.</h2>
+      <button class="btn btn-dark" onclick="carName()">Car Name</button>
+      <h3 id="c_n">Car Name</h3>
+      
+      <hr>
+      <!--alert text-->
+      <h2 class="text-danger">Click the button to get the alerttext.</h2>
+      <button class="btn btn-dark" onclick="alertText()">Alert</button>
+      <h3 id="a_t" class="a_t">Lorem ipsum dolor sit amet.</h3>
+      <h3 id="a_t" class="a_t">Lorem ipsum dolor sit amet.</h3>
+      <h3 id="a_t" class="a_t">Lorem ipsum dolor sit amet.</h3>
+      <h3 id="a_t" class="a_t">Lorem ipsum dolor sit amet.</h3>
+
+      <hr>
+        <!--variable-->
+      <h2 class="text-danger">Click the button to calculate the data.</h2>
+      <button class="btn btn-dark" onclick="calCulation()">Calculation</button>
+      <h3 id="value">Value</h3>
+
+      <hr>
+       <!--show/hide-->
+      <h2 class="text-danger">Click the button to show/hide the element.</h2>
+      <button class="btn btn-dark" onclick="imgShow()">Show</button>
+      <button class="btn btn-dark" onclick="imgHide()">Hide</button><br>
+      <img id="img" src="images/1.jpg" alt="">
+
+      <hr>
+       <!--fontsize change-->
+      <h2 class="text-danger">Click the button to change the fontsize.</h2>
+      <button class="btn btn-dark" onclick="fontChange()">Change fontsize</button>
+      <h3 id="f_c">Lorem ipsum dolor sit amet.</h3>
+
+      <hr>
+      <!--color change-->
+      <h2 class="text-danger">Click the button to change the color.</h2>
+      <button class="btn btn-dark" onmouseenter="changeColor()">Change color</button>
+      <h3 id="c_c">Lorem ipsum dolor sit amet.</h3>
+
+      <hr>
+      <!--bulb on/off-->
+      <h2 class="text-danger">Click the button to on/off the bulb.</h2>
+      <button class="btn btn-dark" onclick="bulbOn()">Bulb On</button>
+      <button class="btn btn-dark" onclick="bulbOff()">Bulb Off</button>
+      <img id="bulb" src="images/off.gif" alt="">
+
+      <hr>
+      <!--show date-->
+      <h2 class="text-danger">Click the button to show the date.</h2>
+      <button class="btn btn-dark" onclick="showDate()">Show date</button>
+      <h3 id="s_d">Show date</h3>
+
+      <hr>
+      <!--text change-->
+      <h2 class="text-danger">Click the button to change the text.</h2>
+      <button class="btn btn-dark" onclick="textChange()">Text change</button>
+      <h3 id="t_c">Lorem ipsum dolor sit amet.</h3>
+
+
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+
+
